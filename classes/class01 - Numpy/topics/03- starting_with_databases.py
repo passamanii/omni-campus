@@ -8,6 +8,11 @@ week_one_tmin = raw[0:7, 1]
 week_one_prcp = raw[0:7, 2]
 week_two_tmax = raw[7:14, 0]
 
+week_one_tmax /= 10
+week_one_tmin /= 10
+week_two_tmax /= 10
+week_one_prcp /= 10
+
 print("Week 1 TMAX: ", week_one_tmax)
 print("Week 1 TMIN: ", week_one_tmin)
 print("Week 1 PRCP: ", week_one_prcp)

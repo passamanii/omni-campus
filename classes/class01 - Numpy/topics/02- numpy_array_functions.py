@@ -18,4 +18,4 @@ z = np.array(z)
 print("Lista Numpy:")
 print("X+Y: ", x+y)
 
-print("X * Y ", x*z)
+print("X * Z ", x*z)
